@@ -4,7 +4,7 @@
 
 def is_nice(line: str) -> bool:
     line = line.strip()
-    if line.__contains__('ab') or line.__contains__('cd') or line.__contains__('pq') or line.__contains__('xy'):
+    if 'ab' in line or 'cd' in line or 'pq' in line or 'xy' in line:
         return False
 
     vowel_count = 0
