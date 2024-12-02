@@ -2,7 +2,7 @@ def parse_input():
     left = []
     right = []
 
-    with open('input', 'r') as f:
+    with open('01/input', 'r') as f:
         lines = f.readlines()
         for line in lines:
             left.append(int(line.split('   ')[0]))
